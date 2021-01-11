@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Website</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">AdShoe</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#dropDown"
+            aria-controls="dropDown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="dropDown">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link active" href="services.html">Services <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+            <!-- right sidebar links -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Join Us</a>
+                </li>
+            </ul>
+            <!-- <register class="register-inline my-2 my-md-0">
+                <input class="register-control" type="text" placeholder="Search">
+            </register> -->
+        </div>
+    </nav>
+    <section class="container mb-4">
+        <div class="text-center py-4">
+            <h1 class="font-weight-light">Register</h1>
+            <em>register here to buy shoe</em>
+        </div>
+        <div class="px-5">
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" class="form-control" placeholder="Enter Your Full Name" pattern="[A-Za-z]{2,50}"
+                        required="">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" class="form-control" placeholder="Enter Your Email" required="">
+                </div>
+                <div class="form-group">
+                    <label>Website</label>
+                    <input type="url" class="form-control" placeholder="Enter Your Website (optional)" required="">
+                </div>
+                <div class="form-group">
+                    <label>Phone</label>
+                    <input type="tel" class="form-control" name="tel" pattern="0-9{10}" placeholder="Enter your phone"
+                        required="">
+                </div>
+                <div class="form-group">
+                    <label>Sex</label>
+                    <select name="sex" class="form-control">
+                        <option value="">Select Your sex</option>
+                        <option value="f">Female</option>
+                        <option value="m">Male</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea cols="30" rows="5" class="form-control"
+                        placeholder="Enter your message here..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </form>
+        </div>
+        </div>
+    </section>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,8 +1,14 @@
+body {
+  font-family: "PT Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol";
+  
+}
 .btn-outline-warning {
-    border:3px solid;
-    border-radius: 2em;
+  border: 3px solid;
+  border-radius: 2em;
 }
 
 a:hover {
-    color: #ffb83f;
+  color: #ffb83f;
 }
