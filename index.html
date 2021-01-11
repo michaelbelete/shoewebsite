@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shoe Website</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -20,7 +22,7 @@
         <div class="collapse navbar-collapse" id="dropDown">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link active" href="#">Services <span class="sr-only">(current)</span></a>
+                    <a class="nav-link active" href="services.html">Services <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">About</a>
@@ -41,11 +43,125 @@
         </div>
     </nav>
 
-    <section class="jumbotron">
-        <h1>Welcome to adShoe</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nesciunt amet id aliquam laudantium debitis libero vero recusandae, ad eligendi reiciendis quia aspernatur eum exercitationem officia dignissimos iure deserunt? Consequuntur!</p>
-        <a href="#" class="btn btn-lg btn-warning">About Us</a>
-        <a href="#" class="btn btn-lg btn-outline-dark">Services</a>
+    <section class="jumbotron jumbotron-fluid bg-dark text-light">
+        <div id="MySlide" class="carousel bg-dark slide my-4" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#MySlide" data-slide-to="0" class="active"></li>
+                <li data-target="#MySlide" data-slide-to="1"></li>
+                <li data-target="#MySlide" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h1>Welcome to adShoe</h1>
+                                <p class="pr-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                                    nesciunt amet
+                                    id aliquam
+                                    laudantium debitis libero vero recusandae, ad eligendi reiciendis quia aspernatur
+                                    eum
+                                    exercitationem
+                                    officia dignissimos iure deserunt? Consequuntur!</p>
+                                <div class="mt-4">
+                                    <a href="services.html" class="btn btn-outline-warning px-4 ml-2">Our Services</a>
+                                    <a href="#" class="btn btn-outline-warning px-4 ml-2">Join us</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="assets/img/runningShoe.png" alt="shoe">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h1>Buy Amazing shoes</h1>
+                                <p class="pr-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                                    nesciunt amet
+                                    id aliquam
+                                    laudantium debitis libero vero recusandae, ad eligendi reiciendis quia aspernatur
+                                    eum
+                                    exercitationem
+                                    officia dignissimos iure deserunt? Consequuntur!</p>
+                                <div class="mt-4">
+                                    <a href="services.html" class="btn btn-outline-warning px-4 ml-2">Our Services</a>
+                                    <a href="#" class="btn btn-outline-warning px-4 ml-2">Join us</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="assets/img/fiberShoe.png" alt="shoe">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h1>We Got extra stylish shoes</h1>
+                                <p class="pr-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                                    nesciunt amet
+                                    id aliquam
+                                    laudantium debitis libero vero recusandae, ad eligendi reiciendis quia aspernatur
+                                    eum
+                                    exercitationem
+                                    officia dignissimos iure deserunt? Consequuntur!</p>
+                                <div class="mt-4">
+                                    <a href="services.html" class="btn btn-outline-warning px-4 ml-2">Our Services</a>
+                                    <a href="#" class="btn btn-outline-warning px-4 ml-2">Join us</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="assets/img/dressShoe.png" alt="shoe">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <a class="carousel-control-prev" href="#mySlide" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#mySlide" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <!-- <div class="text-center"> -->
+            <div class="col-md-4">
+                <h2 class="text-center">Icon</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                    mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
+                    magna
+                    mollis euismod. Donec sed odio dui. </p>
+                <p class="text-center"><a class="btn btn-outline-warning" href="#" role="button">Order Now</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2 class="text-center">Icon</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                    mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
+                    magna
+                    mollis euismod. Donec sed odio dui. </p>
+                <p class="text-center"><a class="btn btn-outline-warning" href="#" role="button">Order Now</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2 class="text-center">Icon</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                    mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
+                    magna
+                    mollis euismod. Donec sed odio dui. </p>
+                <p class="text-center"><a class="btn btn-outline-warning" href="#" role="button">Order Now</a></p>
+            </div>
+            <!-- </div> -->
+        </div>
     </section>
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.bundle.js"></script>
