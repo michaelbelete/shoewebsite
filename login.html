@@ -1,17 +1,107 @@
-<body class="text-center">
-    <form class="form-signin">
-      <img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-      <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
-      <label for="inputEmail" class="sr-only">Email address</label>
-      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-      <label for="inputPassword" class="sr-only">Password</label>
-      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-      <div class="checkbox mb-3">
-        <label>
-          <input type="checkbox" value="remember-me"> Remember me
-        </label>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shoe Website</title>
+
+  <link href="assets/css/all.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><i class="fa fa-shoe-prints"></i> AdShoe</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#dropDown"
+        aria-controls="dropDown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="dropDown">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+        <!-- right sidebar links -->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="login.html"><i class="fa fa-user"></i> Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.html"><i class="fa fa-pen-square"></i> Register</a>
+          </li>
+        </ul>
       </div>
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-      <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+    </div>
+  </nav>
+  <section class="text-center pb-5">
+    <form class="form-signin justify-content-sm-around bg-dark p-4 text-light mt-3">
+      <h1><i class="fa fa-shoe-prints"></i></h1>
+      <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+      <div class="form-group">
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+      </div>
+      <div class="form-group">
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+      </div>
+      <button class="btn btn-outline-warning btn-block" type="submit">Sign in</button>
+      <p class="mt-3 mb-3">&copy; AdShoe 2020-2021</p>
     </form>
-  </body>
+  </section>
+  <footer class="bg-dark text-light p-4 p-2 mb-0">
+    <div class="row">
+      <div class="col-md-5">
+        <h3>Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse hic eligendi aut enim quidem veniam
+          maiores quas voluptate vitae temporibus animi deserunt distinctio officiis sed quae repellendus
+          harum, provident doloribus.
+        </p>
+        <p>
+          <a class="p-1" id="blog-header-text" href="https://www.facebook.com"> <i class="fab fa-facebook"></i>
+            Facebook</a>
+          <a class="p-1" id="blog-header-text" href="https://www.twitter.com"><i class="fab fa-twitter"></i>
+            Twitter</a>
+          <a class="p-1" id="blog-header-text" href="https://www.instagram.com"><i class="fab fa-instagram"></i>
+            Instagram</a>
+        </p>
+      </div>
+      <div class="col-md-3">
+        <h4 class="pl-4">Links</h4>
+        <ul>
+          <li><a href="#">Lorem ipsum dolor</a></li>
+          <li><a href="#">Lorem ipsum dolor</a></li>
+          <li><a href="#">Lorem ipsum dolor</a></li>
+          <li><a href="#">Lorem ipsum dolor</a></li>
+          <li><a href="#">Lorem ipsum dolor</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h4>Location</h4>
+        <p>addis ababa, addis ababa adminstartion, ethiopia</p>
+        <p><i class="fa fa-phone pr-2"></i> +251 960021405</p>
+        <p><i class="fa fa-envelope pr-2"></i> mail@gmail.com</p>
+      </div>
+
+      <div class="col-md-12">
+        <div class="pt-2">© Michael Belete, 2020 | You're looking great today</div>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/bootstrap.bundle.js"></script>
+  <script src="assets/js/popper.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>

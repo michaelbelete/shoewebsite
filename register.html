@@ -5,44 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shoe Website</title>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
+    <link href="assets/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">AdShoe</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#dropDown"
-            aria-controls="dropDown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="fa fa-shoe-prints"></i> AdShoe</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#dropDown"
+                aria-controls="dropDown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="dropDown">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link active" href="services.html">Services <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-            </ul>
-            <!-- right sidebar links -->
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Join Us</a>
-                </li>
-            </ul>
-            <!-- <register class="register-inline my-2 my-md-0">
-                <input class="register-control" type="text" placeholder="Search">
-            </register> -->
+            <div class="collapse navbar-collapse" id="dropDown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+                <!-- right sidebar links -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-user"></i> Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html"><i class="fa fa-pen-square"></i> Register</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
-    <section class="container mb-4">
+    <section class="container mb-4 px-5">
         <div class="text-center py-4">
             <h1 class="font-weight-light">Register</h1>
             <em>register here to buy shoe</em>
@@ -84,42 +85,45 @@
         </div>
         </div>
     </section>
-    
-    <footer class="bg-dark text-light p-4 p-2 mb-0">
-            <div class="row">
-                <div class="col-md-5">
-                    <h3>Heading</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse hic eligendi aut enim quidem veniam
-                        maiores quas voluptate vitae temporibus animi deserunt distinctio officiis sed quae repellendus
-                        harum, provident doloribus.
-                    </p>
-                    <p>                        
-                        <a class="p-1" id="blog-header-text" href="https://www.facebook.com"> <i class="fab fa-facebook"></i> Facebook</a>
-                        <a class="p-1" id="blog-header-text" href="https://www.twitter.com"><i class="fab fa-twitter"></i> Twitter</a>
-                        <a class="p-1" id="blog-header-text" href="https://www.instagram.com"><i class="fab fa-instagram"></i> Instagram</a>
-                    </p>
-                </div>
-                <div class="col-md-3">
-                    <h4 class="pl-4">Links</h4>
-                    <ul>
-                        <li><a href="#">Lorem ipsum dolor</a></li>
-                        <li><a href="#">Lorem ipsum dolor</a></li>
-                        <li><a href="#">Lorem ipsum dolor</a></li>
-                        <li><a href="#">Lorem ipsum dolor</a></li>
-                        <li><a href="#">Lorem ipsum dolor</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h4>Location</h4>
-                    <p>addis ababa, addis ababa adminstartion, ethiopia</p>
-                    <p><i class="fa fa-phone pr-2"></i> +251 960021405</p>
-                    <p><i class="fa fa-envelope pr-2"></i> mail@gmail.com</p>
-                </div>
 
-                <div class="col-md-12">
-                    <div class="pt-2">© Michael Belete, 2020 | You're looking great today</div>
-                </div>
+    <footer class="bg-dark text-light p-4 p-2 mb-0">
+        <div class="row">
+            <div class="col-md-5">
+                <h3>Heading</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse hic eligendi aut enim quidem veniam
+                    maiores quas voluptate vitae temporibus animi deserunt distinctio officiis sed quae repellendus
+                    harum, provident doloribus.
+                </p>
+                <p>
+                    <a class="p-1" id="blog-header-text" href="https://www.facebook.com"> <i
+                            class="fab fa-facebook"></i> Facebook</a>
+                    <a class="p-1" id="blog-header-text" href="https://www.twitter.com"><i class="fab fa-twitter"></i>
+                        Twitter</a>
+                    <a class="p-1" id="blog-header-text" href="https://www.instagram.com"><i
+                            class="fab fa-instagram"></i> Instagram</a>
+                </p>
             </div>
+            <div class="col-md-3">
+                <h4 class="pl-4">Links</h4>
+                <ul>
+                    <li><a href="#">Lorem ipsum dolor</a></li>
+                    <li><a href="#">Lorem ipsum dolor</a></li>
+                    <li><a href="#">Lorem ipsum dolor</a></li>
+                    <li><a href="#">Lorem ipsum dolor</a></li>
+                    <li><a href="#">Lorem ipsum dolor</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4>Location</h4>
+                <p>addis ababa, addis ababa adminstartion, ethiopia</p>
+                <p><i class="fa fa-phone pr-2"></i> +251 960021405</p>
+                <p><i class="fa fa-envelope pr-2"></i> mail@gmail.com</p>
+            </div>
+
+            <div class="col-md-12">
+                <div class="pt-2">© Michael Belete, 2020 | You're looking great today</div>
+            </div>
+        </div>
     </footer>
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.bundle.js"></script>
