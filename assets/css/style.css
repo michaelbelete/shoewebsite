@@ -44,3 +44,7 @@ a:hover {
 .form-signin input{
   border-radius: 15px;
 }
+
+.about-space {
+  margin: 5rem 0;
+}
